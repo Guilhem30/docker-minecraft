@@ -2,4 +2,4 @@
 Dockerfile for Minecraft bedrock official
 
 
-Start with `docker run --name minecraft -ti -p 19132:19132/udp minecraft`
+Start with `docker run -d --name minecraft -ti -p 19132:19132/udp minecraft`
